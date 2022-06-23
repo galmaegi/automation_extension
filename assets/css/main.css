@@ -1,0 +1,58 @@
+html body {
+	width: 700px;
+	height: 500px;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-family: '나눔고딕', NanumGothic, '맑은 고딕', malgungothic, '굴림', Gulim, AppleGothic, sans-serif;
+	font-size: 16px;
+	color: #444;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: .5rem 1rem;
+	border-bottom: 1px solid #eee;
+}
+
+.header-title {
+	font-weight: bolder;
+}
+
+.header-buttons {
+	display: flex;
+	align-items: center;
+}
+
+.header-buttons .button {
+	margin: 0 0 0 .5rem;
+	padding: 0;
+	background-color: transparent;
+	background-image: none;
+	border-width: 0;
+}
+
+.header-buttons .icon {
+	width: 15px;
+	height: 15px;
+}
+
+.widget {
+	padding: 0;
+	overflow: hidden;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 700px;
+	height: 500px;
+}
+
+.footer {
+	position: fixed;
+	left: 1rem;
+	bottom: 1rem;
+}

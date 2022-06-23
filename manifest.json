@@ -1,0 +1,30 @@
+{
+  "name": "Automation",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Open"
+  },
+  "icons" : {
+      "16" : "icon.png",
+      "48" : "icon.png",
+      "128" : "icon.png"
+  },
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "description": "Automation for annoyed things",
+  "permissions": [
+    "activeTab",
+    "background",
+    "tabs",
+    "storage",
+    "scripting",
+    "alarms",
+    "notifications"
+  ],
+  "host_permissions": [
+    "http://*/*", "https://*/*"
+  ]
+  // "background": {
+  //   "service_worker": "background.js"
+  // }
+}
